@@ -1,6 +1,10 @@
 import random
 
-word_list = ["python", "java", "kotlin", "javascript"]
+word_list = ["python", "java", "kotlin", "javascript", "programming", "computer", "keyboard",
+            "developer", "software", "internet", "database", "algorithm", "function", 
+            "variable", "terminal", "github", "coding", "website", "browser", "network", 
+            "server", "application", "technology", "debugging", "framework", 
+            "frontend", "backend", "fullstack", "react", "mongodb"]
 chosen_word = random.choice(word_list)
 
 print("Welcome to Hangman!")
